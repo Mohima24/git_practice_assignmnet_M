@@ -1,16 +1,13 @@
-let str ="abcba";
-
-let rev_str = "";
 
 let num = 13;
 let count =0;
 for (let x = 0 ; x <= 13 ; x++){
     if(num%x==0){
-        count++;
+        count++
     }
 }
 if(count==2){
-    console.log("prime")
+    console.log(num,"is prime")
 }else{
-    console.log("not prime")
+    console.log(num,"is not prime")
 }
